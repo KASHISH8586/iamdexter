@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cat App</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+
+    <style>
+        *{
+            margin:0px 7px;
+        }
+        div{
+            font-family: 'Poppins', sans-serif;
+        }
+        h1{
+            font-family: 'Poppins', sans-serif;
+        }
+       li{
+            font-family: 'Poppins', sans-serif;
+        }
+        .heade{
+            text-align: center;
+        }
+        input{
+            font-family: 'Poppins', sans-serif;
+        }
+        .form{
+            text-align: center;
+        }
+        .list {
+            display: flex;
+        }
+        .hate{
+            display: flex;
+        }
+        @media screen and (max-width:760px) {
+            body img{
+                display: block;
+            }
+            .list{
+                display: block;
+            }
+            .hate{
+                display: block;
+            }
+        }
+    </style>
+</head>
+<body>
+    <br>
+    <div class="heade">
+        <h1>Cat App</h1>
+    </div>
+    <br>
+    <hr>
+    <br>
+    <div class="ph">
+        <h1>Cat Photos</h1>
+    </div>
+    <br>
+    <div class="photos">
+        <h2>Here are some images:</h2>
+        <br>
+        <img src="https://images.pexels.com/photos/45201/kitty-cat-kitten-pet-45201.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" width="300" alt="image">
+        <img src="https://images.pexels.com/photos/320014/pexels-photo-320014.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" width="320" height="320" alt="image">
+        
+    </div>
+    <hr>
+    <br><h1>Things Cat love:</h1><br>
+    <div class="list">
+            <ul>
+                <li><h3>Cats love sleeping and napping</h3></li>
+                <li><h3>Cats love grooming themselves and being groomed.</h3></li>
+                <li><h3>Cats love a clean and private bathroom space.</h3></li>
+                <li><h3>Laser pointer</h3></li>
+                <li><h3>Lasagna</h3></li>
+
+            </ul>
+
+            <img src="https://images.pexels.com/photos/2061057/pexels-photo-2061057.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" width="400" alt="image">
+    </div>
+    <hr>
+    
+    <br><h1>Things that cats hate:</h1><br>
+    <div class="hate">
+        <ol>
+            <li><h3>Flea treatment</h3></li>
+            <li><h3>Thunder</h3></li>
+            <li><h3>Being cradled like a baby</h3></li>
+            <li><h3>Not enough attention</h3></li>
+            <li><h3>Too much attention</h3></li>
+            <li><h3>Other cats</h3></li>
+        </ol>
+        <img src="https://images.pexels.com/photos/979247/pexels-photo-979247.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" width="300" alt="image">
+    </div>
+    <hr>
+    <div class="form">
+                <h3>Is your Cat domestic or wild?</h3>
+                
+        <label for="1">
+            <input type="radio" value="indoor" name="form" >Domestic
+        </label>
+        <label for="1">
+            <input type="radio" value="Outdoor" name="form">Wild
+        </label>
+    </div>
+</body>
+</html>
